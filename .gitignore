@@ -1,1 +1,5 @@
 /build
+/.vscode
+/rev.dSYM
+/rev
+/.DS_Store

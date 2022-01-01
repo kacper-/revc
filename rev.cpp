@@ -1,7 +1,7 @@
 //
-// Created by Kacper Marczewski on 10/09/2021.
+// Created by Kacper Marczewski on 01/01/2022.
 //
-// PI estimated with Monte Carlo method
+// Reversi with MCTS method
 //
 //
 
