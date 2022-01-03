@@ -7,7 +7,7 @@
 uint8_t play(struct game *g)
 {
     // TODO implement human player move using user interface
-    printf("Playing...");
+    printf("Playing...\n");
     return 0;
 }
 
