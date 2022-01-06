@@ -3,7 +3,13 @@
 
 #include "game.h"
 
-void new_game(uint8_t(*player) (struct game*))
+bool is_correct(struct game *g, uint8_t p)
+{
+    // TODO implement checking move correctnes
+    return true;
+}
+
+void new_game(uint8_t(*player) (struct game*, bool(*f) (struct game*, uint8_t)))
 {
     struct game g;
 
@@ -14,7 +20,7 @@ void new_game(uint8_t(*player) (struct game*))
     g.board[1][3] = 1 << 4;
     g.board[1][4] = 1 << 5;
 
-    player(&g);
+    player(&g, is_correct);
 }
 
 #endif // ENGINE_H
